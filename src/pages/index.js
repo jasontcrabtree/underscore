@@ -1,8 +1,23 @@
+import BlockListBox from '../components/BlockListBox';
+import ElementListbox from '../components/ElementListBox';
+import ModifierListbox from '../components/ModifierListBox';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Tiny JS Starter</h1>
-      <p>This is a Next JS template setup with files how I prefer</p>
-    </main>
+    <>
+      <section className="content__intro-wrapper">
+        <h1>Underscore</h1>
+        <p className="content__subhead">Block__Element--Modifier</p>
+        <p>
+          A small utility to explore different BEM combinations. No guarantees
+          provided, no returns accepted.
+        </p>
+      </section>
+      <section className="selectors-grid__wrapper">
+        <BlockListBox />
+        <ElementListbox />
+        <ModifierListbox />
+      </section>
+    </>
   );
 }
