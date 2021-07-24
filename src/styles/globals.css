@@ -47,14 +47,15 @@ html {
 
 h1 {
   font-size: var(--font-xl);
-  color: var(--brick-500);
+  line-height: var(--font-xl);
+  color: var(--grey-600);
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
 main {
-  padding: 72px clamp(32px, 8vw, 440px) 0px clamp(32px, 8vw, 400px);
+  padding: 64px clamp(32px, 8vw, 440px) 0px clamp(32px, 8vw, 400px);
   margin: 0 auto;
   width: 100%;
   min-height: 100vh;
@@ -85,13 +86,14 @@ ul {
 
 .content__intro-wrapper {
   max-width: 48ch;
-  margin: 32px auto 64px;
+  margin: 0px auto;
   text-align: center;
+  color: var(--grey-500);
 }
 
 .content__subhead {
   font-size: var(--font-md);
-  color: var(--brick-300);
+  color: var(--grey-600);
   text-transform: uppercase;
   letter-spacing: 0.8px;
   margin-bottom: 24px;
@@ -109,8 +111,17 @@ ul {
   }
 }
 
+.class-name-output__text--lg {
+  font-size: calc(var(--font-lg) * 2);
+  font-weight: 700;
+  margin-bottom: 48px;
+  text-align: center;
+  color: var(--brick-400);
+}
+
 .card__wrapper {
   background-color: var(--grey-800);
+  color: var(--teal-200);
   padding: 2.4vw;
   border-radius: 4px;
 
@@ -118,6 +129,10 @@ ul {
   align-items: start;
   grid-template-rows: 40px auto;
   gap: 8px;
+}
+
+.card__title--sm {
+  font-size: var(--font-rg);
 }
 
 .listbox__button {

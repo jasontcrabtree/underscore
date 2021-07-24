@@ -13,9 +13,10 @@ Built by [https://twitter.com/jasontcrabtree](https://twitter.com/jasontcrabtree
 
 ## TODO:
 
-- [ ] Display the combined selection in a single line, above the selection cards
+- [x] Display the combined selection in a single line, above the selection cards
 - [ ] Add the ability to copy the chosen class
 - [ ] Reset to default options
+- [ ] LocalStorage of previous selection
 - [ ] Validation for convention breaking combinations (e.g. modifier without a block)
 - [ ] (_Stretch_) Auto-generate possible combinations based on block selections
 - [ ] (_Stretch_) Add references to good modern, advanced BEM resources
